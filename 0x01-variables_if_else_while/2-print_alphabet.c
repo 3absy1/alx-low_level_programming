@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: I sometimes suffer from insomnia. And when I can't fall asleep task
+ * Description: I sometimes suffer from insomnia. task
  *
  * Return: 0 (Success)
 */
