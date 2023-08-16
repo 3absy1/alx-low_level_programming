@@ -14,7 +14,7 @@ int main(void)
 	int c;
 
 	for (c = 0; c < 8; c++)
-		_putchar(stc[c]);
+		_putchar(str[c]);
 	_putchar('\n');
 
 	return (0);
