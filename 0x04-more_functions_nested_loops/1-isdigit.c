@@ -10,7 +10,7 @@
 
 int _isdigit(int d)
 {
-	if (c >= 48 && c <= 57)
+	if (d >= 48 && d <= 57)
 		return (1);
 	else
 		return (0);
