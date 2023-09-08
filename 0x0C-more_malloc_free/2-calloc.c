@@ -1,5 +1,21 @@
 #include "main.h"
 #include <stdlib.h>
+/**
+ * _memset - fills memory with a contant byte
+ * @s: parameter
+ * @b: parameter
+ * @n: parameter
+ * Return: s
+*/
+
+char *_memset(char *s, char b, unsigned int n)
+{
+	char *ptr = s;
+
+	while (n--)
+		*s++ = b;
+	return (ptr);
+}
 
 /**
  * *_calloc - a function that allocates memory for an array, using malloc.
